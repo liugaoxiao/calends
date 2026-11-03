@@ -27,5 +27,12 @@
   "vars": {
     "SITE_URL": "https://calends.xiaoliusix.de",
   },
+  "routes": [
+    {
+      "pattern": "calends.xiaoliusix.de",
+      "custom_domain": true,
+      "zone_name": "xiaoliusix.de",
+    }
+  ],
   "observability": { "enabled": true },
 }
